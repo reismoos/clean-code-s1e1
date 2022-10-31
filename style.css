@@ -16,7 +16,8 @@ body {
   width: 100%;
 }
 
-.about .more-info {
+.about 
+.more-info {
   font-family: fantasy, cursive;
 }
 
@@ -49,11 +50,13 @@ ul {
   padding: 0px;
 }
 
-li, h3 {
+li, 
+h3 {
   list-style: none;
 }
 
-input,button{
+input,
+button{
   outline: none;
 }
 
@@ -119,7 +122,6 @@ li {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -150,7 +152,7 @@ input[type="text"] {
   transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+.delete img:hover {
   transform: rotatez(0);
 }
 
